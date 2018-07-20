@@ -13,6 +13,13 @@ img {
   width: 100%;
 }
 
+h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+}
+
+
 /* .......................Navbar............................ */
 /* Bootstrap Overrides */
 
@@ -79,4 +86,23 @@ img {
 /* In-active button */
 .btn-primary:active {
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+/* .....................Featured Project........................ */
+
+/* .featured-project {
+  margin-top: -7rem;  To account for relatively positioned button
+} */
+
+.featured-project .image-container {
+  height: 19rem;
+  margin-top: 20px; /* To match bootstrap header margins */
+}
+
+.categories h3 {
+  color: #399bd1;
+}
+
+.categories ul {
+  color: rgba(0, 0, 0, 0.7);
 }
