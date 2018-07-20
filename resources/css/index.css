@@ -19,6 +19,11 @@ h2 {
   color: #399bd1;
 }
 
+h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
 
 /* .......................Navbar............................ */
 /* Bootstrap Overrides */
@@ -105,4 +110,15 @@ h2 {
 
 .categories ul {
   color: rgba(0, 0, 0, 0.7);
+}
+
+/* .........................Projects........................ */
+
+.project {
+  margin-bottom: 5.85rem;
+}
+
+.project .image-container {
+  height: 13.5rem;
+  overflow: hidden;
 }
