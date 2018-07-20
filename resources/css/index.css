@@ -47,3 +47,13 @@ img {
 .jumbotron-bike {
   background-image: url("../images/jumbotron-bike.jpg");
 }
+
+.jumbotron h1 {
+  font-family: "Monoton", sans-serif;
+  font-size: 7.1rem;
+}
+
+.jumbotron p {
+  max-width: 51.3rem;
+  margin: auto;
+}
