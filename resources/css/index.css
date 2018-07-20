@@ -70,6 +70,16 @@ h3 {
   margin: auto;
 }
 
+/*....................button wrapper.............  */
+
+.buttonwrapper {
+  position: relative;
+  top: -16rem;
+  width: 100%;
+  text-align: center;
+}
+
+
 /* Bootstrap Overrides */
 /* Active button */
 .btn-primary {
@@ -95,9 +105,9 @@ h3 {
 
 /* .....................Featured Project........................ */
 
-/* .featured-project {
+.featured-project {
   margin-top: -7rem;  To account for relatively positioned button
-} */
+}
 
 .featured-project .image-container {
   height: 19rem;
