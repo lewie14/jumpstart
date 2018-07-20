@@ -1,25 +1,17 @@
-* {
+html {
   /* font-family: 'Monoton', cursive; */
-  font-family: 'Open Sans', sans-serif;
+
   font-size: 14px;
 }
 
-
-h1 {
-  color: SeaGreen;
+body{
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.4;
 }
 
-
-p,
-li {
-  font-size: 18px;
+img {
+  width: 100%;
 }
-
-
-a {
-  text-decoration: none;
-}
-
 
 /* Navbar */
 /* Bootstrap Overrides */
@@ -28,4 +20,9 @@ a {
 .navbar-default .navbar-nav > .active > a:hover {
   background-color: inherit;
   color: #399bd1;
+}
+
+.navbar {
+  font-size: 1.1rem;
+  font-weight: 600;
 }
