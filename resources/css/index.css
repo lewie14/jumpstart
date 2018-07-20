@@ -131,3 +131,23 @@ h3 {
   transition: transform .5s,
               opacity .5s;
 }
+
+/* ...........................Gethelp............................... */
+
+.gethelp {
+  padding: 5.2rem 0;
+  background-color: #f3f3f3;
+  text-align: center;
+}
+
+.gethelp strong {
+  display: inline-block;
+  margin-bottom: 1.4rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.gethelp p {
+  max-width: 42rem;
+  margin: auto;
+}
