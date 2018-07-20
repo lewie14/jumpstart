@@ -13,7 +13,7 @@ img {
   width: 100%;
 }
 
-/* Navbar */
+/* .......................Navbar............................ */
 /* Bootstrap Overrides */
 
 .navbar-default .navbar-nav > .active > a,
@@ -24,5 +24,26 @@ img {
 
 .navbar {
   font-size: 1.1rem;
-  font-weight: 600;
+  font-weight: bold;
+}
+
+/* .....................Jumbotron................................... */
+
+.jumbotron {
+  height: 44rem;
+  padding-top: 10rem;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.jumbotron-bike {
+  background-image: url("../images/jumbotron-bike.jpg");
 }
