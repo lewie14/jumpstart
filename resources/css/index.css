@@ -60,6 +60,18 @@ h3 {
   background-image: url("../images/jumbotron-bike.jpg");
 }
 
+.jumbotron-beer {
+  background-image: url("../images/jumbotron-beer.jpg");
+}
+
+.jumbotron-flowers {
+  background-image: url("../images/jumbotron-flowers.jpg");
+}
+
+.jumbotron-duffel {
+  background-image: url("../images/jumbotron-duffel.jpg");
+}
+
 .jumbotron h1 {
   font-family: "Monoton", sans-serif;
   font-size: 7.1rem;
